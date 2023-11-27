@@ -1,0 +1,77 @@
+
+.subscribe-button {
+    background-color: rgba(228, 10, 10, 0.973);
+    color: white;
+    border: none;
+   padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px ;
+    transition: opactity 1s;
+    /*aligns all the elements in a row vertically in the same line*/
+    vertical-align: top;  
+
+}
+
+.subscribe-button:hover{
+    opacity: 0.8;
+
+}
+
+.subscribe-button:active{
+    opacity: 0.5;
+}
+
+
+
+.join-button{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    /*Its not a good practice to specify height and  width,
+    because inner content overflow,instead its better to achieve the
+    same using "padding" ,and in that case the container will
+    automatically adjust in alignment with the contents*/
+    
+    /*height: 36px;
+    width: 62px;*/
+    padding: 20px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s,color 1s;            
+    vertical-align: top;
+}
+
+.join-button:hover{
+    background-color: blue;
+    color: white;
+    
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(24,119,242);
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 10px;           
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8px;
+    /*the box-shadow effect should last for 2s*/
+    transition: box-shadow 0.8; 
+    padding: 20px;
+    vertical-align: top;
+}
+
+.tweet-button:hover{
+     /*box-show -horizontal placing,vertical placing,blur effect
+    rgb-first 3 params for colors and the last param is opacity
+    */
+   
+    
+    box-shadow: 20px 10px 10px rgb(0, 0, 0,0.5); 
+}

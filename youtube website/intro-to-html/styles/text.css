@@ -1,0 +1,54 @@
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 1;
+}
+.video-title{            
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    /*We can use width with text to force the required text to the next line*/
+    width: 500px;
+    /*To adjust the space between the lines*/
+    line-height: 30px;
+    
+}
+
+.video-stats{            
+    color: gray;
+    font-size: 14px;
+    /*paragraphs by default have 14px margin on top and bottom.
+    We can remove this by adding 0 margin
+    */
+    
+
+}
+
+.video-author{            
+    color: gray;
+    
+}
+
+.video-description{            
+    color: gray;
+    width: 500px;
+    margin-bottom: 100px;
+    
+}
+
+.apple-text{
+    background-color: rgb(240, 7, 7);
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.shop-text{
+    cursor: pointer;
+}
+
+.shop-text:hover{
+    text-decoration: underline;
+}
